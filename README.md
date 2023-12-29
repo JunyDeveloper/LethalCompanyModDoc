@@ -50,7 +50,7 @@ ILSpy
 ### My ClientRPC code is being called on the host but not on the client
 You need to use the NetWeaver patcher. Visit that section [here](#Networking)
 
-### Seeing an error "NetworkObjectReference can only be created from spawned NetworkObjects" 
+### Seeing an error "NetworkObjectReference can only be created from spawned NetworkObjects" or "Networkvariable is written to but doesn't know its networkbehaviour"
 Make sure to add your prefab to the Network manager: 
 ```
 NetworkManager.Singleton.AddNetworkPrefab(Plugin.GamblingMachine)
@@ -60,9 +60,6 @@ In addition, After you instantiate the game object, it MUST be spawned in the se
 ```
 GetComponent<NetworkObject>().Spawn();
 ```
-
-### Seeing an error: "Networkvariable is written to but doesn't know its networkbehaviour"
-See the section: "Seeing an error "NetworkObjectReference can only be created from spawned NetworkObjects"
 
 
 
