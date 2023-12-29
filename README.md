@@ -45,6 +45,11 @@ Unity 2021.3.15f1 Personal
 
 ILSpy
 
+## Functions
+Contains code for the tool tip pop up on hovering an item
+```
+SetHoverTipAndCurrentInteractTrigger
+```
 ## Issues
 
 ### My ClientRPC code is being called on the host but not on the client
