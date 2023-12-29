@@ -22,15 +22,14 @@ Lethal Company uses HDRP shaders. If your assets do not use HDRP, it will be inv
 
 You may need to install these shaders. Navigate to Window > Package Manager > Top right search bar type in "High Definition RP" and install.
 
-After installing we'll need to convert our material assets to HDRP. Navigate to Window > Rendering > HDRP Wizard. Make sure all the checkmarks are green in the wizard. 
-
+After installing we'll need to convert our material assets to HDRP. Navigate to Window > Rendering > HDRP Wizard. Make sure all the checkmarks are green in the wizard.
+In the unity editor (not in the HDRP Wizard window), you can highlight/select your materials that you want to convert to HDRP. Once highlighted, switch back to the HDRP wizard window and select "Convert Selected Built-in Materials to HDRP".
 
 ## Networking
 
 In order to write our own network code from Unity, we need to utilize NetWeaver: https://github.com/EvaisaDev/UnityNetcodeWeaver.
 
-In visual studio code 2022, Right click project solution > Build (left panel) > Advanced... > Set debugging information to "Portable". Failing to do this step will result in the netcode patcher failing. In the unity editor (not in the HDRP Wizard window),
-you can highlight/select your materials that you want to convert to HDRP. Once highlighted, switch back to the HDRP wizard window and select "Convert Selected Built-in Materials to HDRP".
+In visual studio code 2022, Right click project solution > Build (left panel) > Advanced... > Set debugging information to "Portable". Failing to do this step will result in the netcode patcher failing.
 
 https://lethal.wiki/advanced-modding/networking#why-netcode-weaver
 
