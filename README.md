@@ -49,29 +49,6 @@ ILSpy
 
 ### My ClientRPC code is being called on the host but not on the client
 
-
-
-You need to use the NetWeaver patcher. Visit that section [here](#Networking)
-
-
-
-You need to use the NetWeaver patcher. Visit that section [here](#Networking)
-
-
-You need to use the NetWeaver patcher. Visit that section [here](#Networking)
-
-
-You need to use the NetWeaver patcher. Visit that section [here](#Networking)
-
-
-You need to use the NetWeaver patcher. Visit that section [here](#Networking)
-
-
-
-You need to use the NetWeaver patcher. Visit that section [here](#Networking)
-
-
-
 You need to use the NetWeaver patcher. Visit that section [here](#Networking)
 
 
