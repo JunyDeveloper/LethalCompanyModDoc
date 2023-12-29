@@ -27,7 +27,7 @@ In the unity editor (not in the HDRP Wizard window), you can highlight/select yo
 
 ## Networking
 
-In order to write our own network code from Unity, we need to utilize NetWeaver: https://github.com/EvaisaDev/UnityNetcodeWeaver.
+In order to write our own network code from Unity, we need to utilize a NetWeaver patcher: https://github.com/EvaisaDev/UnityNetcodeWeaver.
 
 In visual studio code 2022, Right click project solution > Build (left panel) > Advanced... > Set debugging information to "Portable". Failing to do this step will result in the netcode patcher failing.
 
@@ -44,3 +44,7 @@ Unofficial Lethal Company Discord
 Unity 2021.3.15f1 Personal
 
 ILSpy
+
+## Issues
+
+
