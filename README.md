@@ -8,7 +8,12 @@ Right click the types to see where Classes and Methods are used (Analyze feature
 
 ## Asset Bundle
 
-In order to bundle assets in unity, navigate to Window > Package Manager > Top right search bar type in "Asset Bundle Browser" and install. 
+In order to bundle assets in unity: 
+  - Navigate to Window > Package Manager
+  - Click the + (Add) button at the top, left corner of the window.
+  - Choose Add package from git URL…
+  - Enter https://github.com/Unity-Technologies/AssetBundles-Browser.git as the URL
+  - Click Add.
 
 After installing, you can navigate to Window > AssetBundle Browser and build your assetbundle there.
 
