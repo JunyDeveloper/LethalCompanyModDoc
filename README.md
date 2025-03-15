@@ -43,6 +43,10 @@ https://lethal.wiki/advanced-modding/networking#why-netcode-weaver
 Download here: https://github.com/ManlyMarco/RuntimeUnityEditor
 If no UI shows up ingame, open BepInEx.cfg and set HideManagerGameObject = true
 
+## Namespace errors on Photon
+
+Already got the references? Shut down IDE and re-launch. Not sure why that works
+
 ## Modding Resources
 
 https://lethal.wiki/
