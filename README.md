@@ -38,6 +38,11 @@ In visual studio code 2022, Right click project solution > Properties > Build (l
 
 https://lethal.wiki/advanced-modding/networking#why-netcode-weaver
 
+## Using RuntimeUnityEditor
+
+Download here: https://github.com/ManlyMarco/RuntimeUnityEditor
+If no UI shows up ingame, open BepInEx.cfg and set HideManagerGameObject = true
+
 ## Modding Resources
 
 https://lethal.wiki/
@@ -49,6 +54,8 @@ Unofficial Lethal Company Discord
 Unity 2021.3.15f1 Personal
 
 ILSpy
+
+https://github.com/ManlyMarco/RuntimeUnityEditor
 
 ## Functions
 Contains code for the tool tip pop up on hovering an item
